@@ -1,8 +1,9 @@
 
-<h3>{{(channelName$ | async)?.channelName}}</h3>
+<h3 class="mt-4">{{(channelName$ | async)?.channelName}}</h3>
 <div class="mt-5">
     <input type="text"  placeholder="Enter Input Value" [(ngModel)]="inputValue"/>
     <button class="btn btn-primary" (click)="customIncrement()"> Submited Value</button>
 </div>
 
-<button class="btn btn-primary" (click)="channeNameChange()">Click Me</button>
+
+<button class="btn btn-primary mt-4" (click)="channeNameChange()">Click Me</button>
