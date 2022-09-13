@@ -15,6 +15,7 @@ import { HeaderComponent } from './shared/component/header/header.component';
 import { PostlistComponent } from './post/postlist/postlist.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
+import { AddPostComponent } from './post/add-post/add-post.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { environment } from 'src/environments/environment';
     CustomCounterInputComponent,
     HomeComponent,
     HeaderComponent,
-    PostlistComponent
+    PostlistComponent,
+    AddPostComponent
   ],
   imports: [
     BrowserModule,
