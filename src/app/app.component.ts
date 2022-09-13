@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngrx-practice';
+  // title! : string | ArrayBuffer | null | undefined;
+
+
+  // onChange(event: any) {
+  //   this.title = '';
+
+  //   // Get your files
+  //   const files: FileList = event.target.files;
+
+  // this.title = files[0].name;
+
+    
+  // }
+
+  // uploadBtn(){
+  //   this.title  = "custom submit"  
+  // }
+
 }

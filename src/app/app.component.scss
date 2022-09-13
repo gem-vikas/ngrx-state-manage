@@ -1,0 +1,33 @@
+// :host {
+//     .custom-uploader {
+//       .inputfile {
+//         width: 0.1px;
+//         height: 0.1px;
+//         opacity: 0;
+//         overflow: hidden;
+//         position: absolute;
+//         z-index: -1;
+//         + {
+//           label {
+//             display: flex;
+//             flex-wrap: wrap;
+//             align-items: center;
+//             width: fit-content;
+//             &::before {
+//               content: "Choose File";
+//               background: #f0f0f0;
+//               padding: 3px 7px;
+//               box-sizing: border-box;
+//               font-size: 14px;
+//               border: solid 1px #000;
+//               margin-right: 8px;
+//             }
+//             &:hover::before {
+//               background: #d1d0d0 !important;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  
